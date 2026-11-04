@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero">Presentacion</a></li>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+         <section id="hero" class="container">
+            <div class="hero-content">
+                <h1>Lucía Quesada</h1>
+                <h2>Especialista en Comercio Exterior y Logística</h2>
+                <p><strong>Estudiante de Desarrollo de Aplicaciones de Software</strong></p>
+                <p>En camino de aprender a crear experiencias digitales atractivas y funcionales. </p>
+                <a href="#contact" class="button">Contactame</a>
+            </div>
+
+            <figure>
+                <img src="images/progra.jpg" alt="Lineas de codigo en un fondo oscuro">
+            </figure>
+        
+        </section>
+
+        <section id="about" class="container">
+            <h2>Sobre Mí</h2>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+                    
+                    <p>Mi nombre es Lucía Quesada, una apasionada por la tecnología y el desarrollo de software. Mi objetivo es combinar mi experiencia en comercio exterior y logística con mis habilidades en programación para crear soluciones innovadoras que mejoren los procesos empresariales.</p>
+                    <p id="descripcion">Soy graduada en Administración Aduanera y Comercio Exterior de la Universidad de Costa Rica, mi background profesional se ha centrado en relaciones comerciales y procesos logísticos dentro de cadenas de suministro en empresas como DHL, Amazon y P&G. Donde he tenido la oportunidad de automatizar procesos por medio de aplicaciones como Python y Power BI e inteligencias artificiales internas. Esta experiencia despertó en mí un gran interés en el desarrollo de software, carrera que decidí iniciar en el Tecnológico de Costa Rica. Actualmente me encuentro expandiendo mis habilidades en el desarrollo web utilizando HTML y CSS.</p>
+                </div>
+
+                <figure>
+                    <img src="images/yo.jpeg" alt="Foto de Lucía Quesada">
+                </figure>
+
+            </div>
+
+        </section>
+
+        <section id="skills" class="container">
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Power BI</li>
+                <li>Excel Advanzado</li>
+                <li>SAP</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Proyectos</h2>
+
+            <div class="project-container">
+
+                <article class="Proyect1">
+                    <h3>Sistema de Gestión de Clínica Privada: Modernización y Rendimiento</h3>
+                    <img src="images/clinica.jpg" alt="Imagen del proyecto de gestión de clínica privada">
+                    <p>Desarrollo de un sistema de gestión para una clínica privada, enfocado en la modernización y mejora del rendimiento operativo por medio de Python. Implementa colas de prioridad, búsquedas avanzadas, árboles N-arios y un laboratorio de benchmarking en tiempo real (Big O) con lotes de hasta 200,000 registros para evaluar el rendimiento de estructuras de datos y algoritmos.</p>
+                    <a href="https://github.com/luquec/Sistema-de-Gestion-de-Clinica-Privada-Modernizacion-y-Rendimiento-.git" class="btn-project1">Ver código en GitHub</a>
+                </article>
+
+                <article>
+                    <h3>Sistema de Gestión de Inventario Comercial y Ofertas Temporales</h3>
+                    <img src="images/inventario.jpg" alt="Imagen del proyecto de gestión de inventario comercial y ofertas temporales">
+                    <p>Desarrollo de un sistema de gestión para el control de inventario comercial finanzas en Java bajo el paradigma POO. Implementa control de existencias por categorías, cálculo consolidado de IVA (13%) y utilidades, administración de ofertas temporales con validación de exclusividad, consultas avanzadas y modelado arquitectónico estructurado en paquetes.</p>
+                    <a href="https://github.com/luquec/Sistema-de-Gestion-de-Inventario-Comercial-y-Ofertas-Temporales.git" class="btn-project2">Ver código en GitHub</a>
+                </article>
+
+                <article>
+                    <h3>Gestión Comunitaria del TEC</h3>
+                    <img src="images/tec.jpg" alt="Imagen del proyecto de gestión comunitaria del TEC">
+                    <p>Plataforma en Java orientada a objetos para la automatización y gestión de la comunidad del TEC. Implementa una jerarquía abstracta de tres niveles, interfaces contractuales de persistencia binaria y transacciones, manejo estricto de excepciones y una interfaz gráfica dinámica en Java Swing con reportes financieros de nómina y vacaciones.</p>
+                    <a href="https://github.com/luquec/Gestion-de-la-Comunidad-Institucional.git" class="btn-project3">Ver código en GitHub</a>
+                </article>
+                
+            </div>
+
+        </section>
+
+        <section id="contact" class="container">
+
+            <h2>Contacto</h2>
+             <p>Si tienes alguna consulta o te gustaría que trabajemos juntos, puedes escribirme a través del formulario o por mis redes sociales.</p>
+            
+             <div class="contact-grid">
+                <form action="#" method="POST" class="contact-form">
+                
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Enviar</button>
+
+                </form>
+
+                <aside class="contact-info">
+                    <p>También puedes contactarme a través de mis redes sociales:</p>
+                    <p><strong>Email: </strong>lucia.quesada28@gmail.com</p>
+                    <p><strong>Ubicación: </strong>San José, Costa Rica</p>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/lucía-quesada" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/luquec" target="_blank">GitHub</a>
+                    </div>
+
+                </aside>
+            </div>  
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-info">
+                <p>&copy; 2026 Mi Portafolio Personal. Todos los derechos reservados.</p>
+                <p>lucia.quesada28@gmail.com</p>
+                <p>San José, Costa Rica</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/lucía-quesada" target="_blank">LinkedIn</a>
+                <a href="https://github.com/luquec" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
