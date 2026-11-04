@@ -6,7 +6,7 @@ Este proyecto consiste en el desarrollo de un portafolio personal interactivo de
 
 ## Enlaces del Proyecto
 
-*   **Sitio Web Publicado (GitHub Pages):** 
+*   **Sitio Web Publicado (GitHub Pages):** https://luquec.github.io/Portafolio-Personal/
 *   **Video Explicativo (YouTube Unlisted):** https://youtu.be/zzPF7jiwh_8
 
 ---
